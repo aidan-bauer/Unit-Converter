@@ -2,6 +2,9 @@
 <html lang="en">
     <head>
 		<title>Distance Unity Converter</title>
+		
+		<link href="css/global-styles.css">
+		<script src="js/conversions.js"></script>
 	</head>
     <body>
 		<div class="container">
@@ -12,7 +15,8 @@
 			<div class="body">
 				<div class="converter">
 					<h2>From</h2>
-					<select id="front">
+					<input id="leftInput" type="text" placeholder="0">
+					<select id="imperial">
 						<option value="in">IN</option>
 						<option value="ft">FT</option>
 						<option value="mi">MI</option>
@@ -20,13 +24,13 @@
 				</div>
 				<div class="converter">
 					<h2>To</h2>
-					<select id="to">
+					<input id="rightInput" type="text" placeholder="0">
+					<select id="metric">
 						<option value="mm">MM</option>
 						<option value="cm">CM</option>
 						<option value="m">M</option>
 						<option value="km">KM</option>
 					</select>
-					<div id="output">00.00</div>
 				</div>
 			</div>
 		</div>
