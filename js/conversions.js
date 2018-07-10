@@ -1,3 +1,5 @@
+/*jslint es6 */
+
 const conversions = {
 <<<<<<< HEAD
 	inchToCM : 2.5,
